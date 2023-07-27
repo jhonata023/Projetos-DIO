@@ -30,8 +30,8 @@ Digite o valor a ser sacado: R$'''))
                 cont += 1
                 break
     if opção == 2:
-        print('~' * 12)
-        print('EXTRATO')
+        print('~' * 12, end=' ')
+        print('EXTRATO', end=' ')
         print('~' * 12)
         print(extrato)
         print(f'Seu saldo é de R${saldo:.2f}')
